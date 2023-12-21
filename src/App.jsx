@@ -1,5 +1,5 @@
 import {  HashRouter as Router } from 'react-router-dom';
-import {Navbar, Hero, About, Experience, Tech, Works, Feedbacks, Contact, StarsCanvas} from './components';
+import {Navbar, Hero, About,Men , Experience, Tech, Works, Feedbacks, Contact, StarsCanvas} from './components';
 
 const App = () => {
 
@@ -11,6 +11,7 @@ const App = () => {
           <Hero />
         </div>
         <About />
+        <Men />
         <Experience />
         <Tech />
         <Works />
